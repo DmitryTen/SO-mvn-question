@@ -1,0 +1,44 @@
+23:41:25:375 [main] [INFO] Scanning for projects...
+23:41:25:446 [main] [INFO] 
+23:41:25:446 [main] [INFO] --------------------------< org.example:test >--------------------------
+23:41:25:446 [main] [INFO] Building test 1.0-SNAPSHOT
+23:41:25:446 [main] [INFO] --------------------------------[ jar ]---------------------------------
+23:41:25:535 [main] [INFO] 
+23:41:25:535 [main] [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ test ---
+23:41:25:562 [main] [INFO] Deleting /Users/dmitriyten/tmp/test/SO-mvn-question/target
+23:41:25:564 [main] [INFO] 
+23:41:25:564 [main] [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ test ---
+23:41:25:628 [main] [INFO] Using 'UTF-8' encoding to copy filtered resources.
+23:41:25:628 [main] [INFO] skip non existing resourceDirectory /Users/dmitriyten/tmp/test/SO-mvn-question/src/main/resources
+23:41:25:628 [main] [INFO] 
+23:41:25:628 [main] [INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ test ---
+23:41:25:738 [main] [INFO] Changes detected - recompiling the module!
+23:41:25:741 [main] [INFO] Compiling 1 source file to /Users/dmitriyten/tmp/test/SO-mvn-question/target/classes
+23:41:26:023 [main] [INFO] 
+23:41:26:023 [main] [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ test ---
+23:41:26:024 [main] [INFO] Using 'UTF-8' encoding to copy filtered resources.
+23:41:26:024 [main] [INFO] skip non existing resourceDirectory /Users/dmitriyten/tmp/test/SO-mvn-question/src/test/resources
+23:41:26:025 [main] [INFO] 
+23:41:26:025 [main] [INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ test ---
+23:41:26:026 [main] [INFO] No sources to compile
+23:41:26:026 [main] [INFO] 
+23:41:26:026 [main] [INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ test ---
+23:41:26:072 [main] [INFO] No tests to run.
+23:41:26:075 [main] [INFO] 
+23:41:26:075 [main] [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ test ---
+23:41:26:148 [main] [INFO] Building jar: /Users/dmitriyten/tmp/test/SO-mvn-question/target/test-1.0-SNAPSHOT.jar
+23:41:26:154 [main] [INFO] 
+23:41:26:154 [main] [INFO] --- maven-dependency-plugin:3.6.1:analyze-only (analyze-dependencies) @ test ---
+23:41:26:492 [main] [INFO] ------------------------------------------------------------------------
+23:41:26:492 [main] [INFO] BUILD FAILURE
+23:41:26:492 [main] [INFO] ------------------------------------------------------------------------
+23:41:26:493 [main] [INFO] Total time:  1.148 s
+23:41:26:493 [main] [INFO] Finished at: 2023-10-31T23:41:26+01:00
+23:41:26:493 [main] [INFO] ------------------------------------------------------------------------
+23:41:26:493 [main] [ERROR] Failed to execute goal org.apache.maven.plugins:maven-dependency-plugin:3.6.1:analyze-only (analyze-dependencies) on project test: Execution analyze-dependencies of goal org.apache.maven.plugins:maven-dependency-plugin:3.6.1:analyze-only failed: Unsupported class file major version 65 -> [Help 1]
+23:41:26:493 [main] [ERROR] 
+23:41:26:493 [main] [ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+23:41:26:494 [main] [ERROR] Re-run Maven using the -X switch to enable full debug logging.
+23:41:26:494 [main] [ERROR] 
+23:41:26:494 [main] [ERROR] For more information about the errors and possible solutions, please read the following articles:
+23:41:26:494 [main] [ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginExecutionException

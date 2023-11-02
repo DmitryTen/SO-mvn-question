@@ -1,0 +1,42 @@
+15:39:02:469 [main] [INFO] Scanning for projects...
+15:39:02:540 [main] [INFO] 
+15:39:02:540 [main] [INFO] --------------------------< org.example:test >--------------------------
+15:39:02:541 [main] [INFO] Building test 1.0-SNAPSHOT
+15:39:02:541 [main] [INFO] --------------------------------[ jar ]---------------------------------
+15:39:02:635 [main] [INFO] 
+15:39:02:635 [main] [INFO] --- maven-clean-plugin:3.3.1:clean (default-clean) @ test ---
+15:39:02:662 [main] [INFO] Deleting /Users/dmitriyten/tmp/test/SO-mvn-question/target
+15:39:02:664 [main] [INFO] 
+15:39:02:664 [main] [INFO] --- maven-resources-plugin:3.3.1:resources (default-resources) @ test ---
+15:39:02:716 [main] [INFO] skip non existing resourceDirectory /Users/dmitriyten/tmp/test/SO-mvn-question/src/main/resources
+15:39:02:716 [main] [INFO] 
+15:39:02:716 [main] [INFO] --- maven-compiler-plugin:3.11.0:compile (default-compile) @ test ---
+15:39:02:783 [main] [INFO] Changes detected - recompiling the module! :source
+15:39:02:784 [main] [INFO] Compiling 1 source file with javac [debug release 21] to target/classes
+15:39:03:111 [main] [INFO] 
+15:39:03:111 [main] [INFO] --- maven-resources-plugin:3.3.1:testResources (default-testResources) @ test ---
+15:39:03:113 [main] [INFO] skip non existing resourceDirectory /Users/dmitriyten/tmp/test/SO-mvn-question/src/test/resources
+15:39:03:113 [main] [INFO] 
+15:39:03:113 [main] [INFO] --- maven-compiler-plugin:3.11.0:testCompile (default-testCompile) @ test ---
+15:39:03:115 [main] [INFO] No sources to compile
+15:39:03:115 [main] [INFO] 
+15:39:03:115 [main] [INFO] --- maven-surefire-plugin:3.2.1:test (default-test) @ test ---
+15:39:03:240 [main] [INFO] No tests to run.
+15:39:03:243 [main] [INFO] 
+15:39:03:243 [main] [INFO] --- maven-jar-plugin:3.3.0:jar (default-jar) @ test ---
+15:39:03:343 [main] [INFO] Building jar: /Users/dmitriyten/tmp/test/SO-mvn-question/target/test-1.0-SNAPSHOT.jar
+15:39:03:359 [main] [INFO] 
+15:39:03:359 [main] [INFO] --- maven-dependency-plugin:3.6.1:analyze-only (analyze-dependencies) @ test ---
+15:39:03:621 [main] [INFO] ------------------------------------------------------------------------
+15:39:03:621 [main] [INFO] BUILD FAILURE
+15:39:03:621 [main] [INFO] ------------------------------------------------------------------------
+15:39:03:621 [main] [INFO] Total time:  1.180 s
+15:39:03:622 [main] [INFO] Finished at: 2023-11-02T15:39:03+01:00
+15:39:03:622 [main] [INFO] ------------------------------------------------------------------------
+15:39:03:622 [main] [ERROR] Failed to execute goal org.apache.maven.plugins:maven-dependency-plugin:3.6.1:analyze-only (analyze-dependencies) on project test: Execution analyze-dependencies of goal org.apache.maven.plugins:maven-dependency-plugin:3.6.1:analyze-only failed: Unsupported class file major version 65 -> [Help 1]
+15:39:03:622 [main] [ERROR] 
+15:39:03:622 [main] [ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+15:39:03:622 [main] [ERROR] Re-run Maven using the -X switch to enable full debug logging.
+15:39:03:622 [main] [ERROR] 
+15:39:03:622 [main] [ERROR] For more information about the errors and possible solutions, please read the following articles:
+15:39:03:622 [main] [ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginExecutionException
